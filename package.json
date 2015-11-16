@@ -1,0 +1,26 @@
+{
+  "name": "justatesthapiplugin",
+  "version": "1.0.0",
+  "description": "This is just a simple Hapi Plugin to be used for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaw187/justatesthapiplugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaw187/justatesthapiplugin/issues"
+  },
+  "homepage": "https://github.com/jaw187/justatesthapiplugin#readme",
+  "devDependencies": {
+    "hapi": "8.x.x"
+  },
+  "dependencies": {
+    "code": "^2.0.1",
+    "lab": "^7.3.0"
+  }
+}
