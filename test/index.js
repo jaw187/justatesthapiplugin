@@ -42,7 +42,7 @@ describe('Plugin tests', function () {
 
                     expect(res).to.exist();
                     expect(res.result).to.exist();
-                    expect(res.result).to.equal(serviceOptions.someoption);
+                    expect(res.result).to.equal(serviceOptions.someoption + serviceOptions.someoption + serviceOptions.someoption);
 
                     done();
                 });

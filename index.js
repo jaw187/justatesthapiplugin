@@ -21,7 +21,7 @@ exports.register = function (server, options, next) {
         path: '/justatest',
         handler: function (request, reply) {
 
-            reply(this.someoption);
+            reply(this.someoption + this.someoption + this.someoption);
         }
     };
 

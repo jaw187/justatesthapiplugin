@@ -4,7 +4,7 @@
   "description": "This is just a simple Hapi Plugin to be used for testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/lab"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,8 @@
   },
   "homepage": "https://github.com/jaw187/justatesthapiplugin#readme",
   "devDependencies": {
-    "hapi": "8.x.x"
-  },
-  "dependencies": {
-    "code": "^2.0.1",
-    "lab": "^7.3.0"
+    "hapi": "8.x.x",
+      "code": "2.x.x",
+      "lab": "7.x.x"
   }
 }
